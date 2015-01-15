@@ -25,13 +25,15 @@ header * {
 h1 {
     font-size:3.5em;
     color: #fff;
+    padding: 10px;;
 }
 
 h2 {
     color: #3c3c3c;
     font-size: 1.4em;
-    padding-top: 5px;
     margin-bottom: 0;
+    padding: 10px;
+    padding-top: 5px;
 }
 
 main h2 {
