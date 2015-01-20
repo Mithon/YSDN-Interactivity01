@@ -4,31 +4,20 @@ body {
     margin: -20px 0 0 0;
 }
 
-article {
-     display: flex;
-    justify-content: space-between;
 
-}
+/* Spacing and Layout */
 
 main {
-    /*
     margin: auto;
     max-width: 800px;
     padding: 20px 7% 0 7%;
     line-height: 1.6;
-    */
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    max-width: 800px;
 }
 
 header  {
     background-color: #64B5F6;
+    height: 100%;
     padding: 5%;
-    min-width: 150px;
-    max-width: 200px;
-    flex: none;
 }
 
 header * {
@@ -37,9 +26,11 @@ header * {
 }
 
 section  {
-    margin-bottom: 60px;
-    margin: auto;
+    margin-bottom: 80px;
 }
+
+
+/* Text formatting */
 
 h1 {
     font-size:3.5em;
@@ -60,7 +51,7 @@ main h2 {
 }
 
 h3 {
-    margin: 40px 0 0 0;
+    margin: 50px 0 0 0;
     padding-bottom: 0;
 }
 
@@ -73,6 +64,49 @@ p {
     font-weight: 300;
     letter-spacing: 0.01em;
     word-spacing: 0.01em;
+}
+
+a {
+    color: #1E88E5;
+    text-decoration: none;
+    border-radius: 3px;
+}
+
+a:hover {
+    background-color: #E3F2FD;
+}
+
+
+
+/* Image Formatting */
+
+img {
+    border-radius: 5px;
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.26);
+    margin: 50px;
+    margin-top: 60px;
+    width: 40%;
+}
+
+.rightImg {
+    float: right;
+    margin-right: -5%;
+}
+
+.leftImg {
+    float: left;
+    margin-left: -5%;
+}
+
+
+/* Mobile Image Handling */
+
+@media screen and (max-width: 500px) {
+    img {
+        overflow: auto;
+        width: 110%;
+        margin: 50px;
+    }
 }
 
 
