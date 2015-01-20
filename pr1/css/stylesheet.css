@@ -29,6 +29,10 @@ section  {
     margin-bottom: 80px;
 }
 
+footer {
+    padding-bottom: 50px;
+}
+
 
 /* Text formatting */
 
@@ -76,7 +80,10 @@ a:hover {
     background-color: #E3F2FD;
 }
 
-
+footer p {
+    font-size: 0.8em;
+    margin: 4px;
+}
 
 /* Image Formatting */
 
