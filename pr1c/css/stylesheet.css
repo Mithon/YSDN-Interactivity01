@@ -1,0 +1,132 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,800,300);
+@import url(http://fonts.googleapis.com/css?family=Gentium+Book+Basic:400,400italic);
+
+body {
+    padding: 0;
+    margin: 0;
+    background-color: #955251;
+    font-family: "Gentium Book Basic", serif;
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+div {
+    margin: auto;
+    padding: 10%;
+}
+
+header {
+    flex: 2 auto;
+    display: flex;
+    background-color: #9D7554;
+    min-height: 400px;
+    min-width: 500px;
+    text-align: center;
+    background-image: url("../images/coffeebeans.jpg");
+    background-size: 180%;
+}
+
+h1 {
+    width:auto;
+    margin: 0;
+    font-size: 8em;
+    font-family: "Open Sans", Helvetica, sans-serif;
+    color: #f7f7f7;
+}
+
+h2 {
+    margin: 0;
+    font-family: "Open Sans", Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 2em;
+    color: #6f6a6b;
+}
+
+h3 {
+    color: #fff;
+    margin: 0;
+    font-size: 1.4em;
+}
+
+p {
+    font-size: 1.15em;
+    text-align: left;
+    line-height: 1.2
+}
+
+section {
+    background-color: #F3EBE0;
+    display: flex;
+    min-width: 400px;
+    flex: 1;
+
+}
+
+section:nth-child(odd) {
+    background-color: #955251;
+}
+
+section.img {
+    background-position: center;
+    background-size: 100%;
+    min-height: 300px;
+}
+
+section.img {
+
+img {
+    min-height: 300px;
+    flex: 1;
+    min-width: 200px;
+}
+
+
+
+.info-box {
+    flex: 1;
+}
+
+
+
+
+
+
+/*
+This is to make images show text on hover but its super annoying
+
+To activate just un-comment this and put an h2 inside the div of the image section
+
+-Hunter
+
+.image-cover {
+    position: absolute;
+    display: flex;
+    visibility: hidden;
+    width: 80%;
+    height: 80%;
+    background-color: rgba(96, 96, 96, 0.89);
+    margin: 0;
+}
+
+.img:hover > .image-cover {
+    visibility: visible;
+}
+
+.image-cover h2 {
+    text-align: center;
+    font-size: 4em;
+    margin: auto;
+    color: #fff;
+}
+
+section.img {
+    display: inline-block;
+    overflow: hidden;
+    position: relative;
+
+}
+
+*/
