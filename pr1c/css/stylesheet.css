@@ -9,6 +9,7 @@ body {
 }
 
 main {
+    display: -webkit-flex;
     display: flex;
     flex-wrap: wrap;
 }
@@ -20,6 +21,7 @@ div {
 
 header {
     flex: 2 auto;
+    display: -webkit-flex;
     display: flex;
     background-color: #9D7554;
     min-height: 400px;
@@ -61,6 +63,7 @@ p {
 section {
     background-color: rgb(255, 255, 255);
     display: flex;
+    display: -webkit-flex;
     min-width: 400px;
     flex: 1;
     margin-bottom: 2px;
@@ -116,6 +119,7 @@ To activate just un-comment this and put an h2 inside the div of the image secti
 
 .image-cover {
     position: absolute;
+    display: -webkit-flex;
     display: flex;
     visibility: hidden;
     width: 80%;
