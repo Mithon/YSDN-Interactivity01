@@ -1,5 +1,9 @@
 @import url(http://fonts.googleapis.com/css?family=Open+Sans:400,800,300);
 @import url(http://fonts.googleapis.com/css?family=Gentium+Book+Basic:400,400italic);
+
+
+/* Layout */
+
 body {
     padding: 0;
     margin: 0;
@@ -41,6 +45,40 @@ header {
     margin-bottom: 2px;
 }
 
+section {
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    display: -webkit-flex;
+    min-width: 400px;
+    flex: 1;
+    -webkit-box-flex: 1 0 40%;
+    -moz-box-flex: 1;
+    -webkit-flex: 1 0 40%;
+    -ms-flex: 1;
+    margin-bottom: 2px;
+}
+
+section:nth-child(odd) {
+    background-color: #955251;
+}
+
+section.alt-colour {
+    background-color: #955251;
+}
+
+section.img {
+    background-position: center;
+    background-size: 100%;
+    min-height: 300px;
+}
+
+.info-box {
+    flex: 1;
+}
+
+
+/* Text Formatting */
+
 h1 {
     width: auto;
     margin: 0;
@@ -69,38 +107,14 @@ p {
     line-height: 1.25
 }
 
-section {
-    background-color: rgb(255, 255, 255);
-    display: flex;
-    display: -webkit-flex;
-    min-width: 400px;
-    flex: 1;
-    -webkit-box-flex: 1 0 40%;
-    -moz-box-flex: 1;
-    -webkit-flex: 1 0 40%;
-    -ms-flex: 1;
-    margin-bottom: 2px;
-}
-
-section:nth-child(odd) {
-    background-color: #955251;
-}
-
-section.alt-colour {
-    background-color: #955251;
-}
-
 .alt-colour p,
 .alt-colour h2 {
     color: #fdfdfd;
     letter-spacing: 150%;
 }
 
-section.img {
-    background-position: center;
-    background-size: 100%;
-    min-height: 300px;
-}
+
+/* Image Links */
 
 .grinder {
     background-image: url("../images/coffee-grinder.jpg");
@@ -119,9 +133,8 @@ section.img.berman {
     background-image: url("../images/tonx_coffee.jpg");
 }
 
-.info-box {
-    flex: 1;
-}
+
+
 /*
 This is to make images show text on hover but its super annoying
 
