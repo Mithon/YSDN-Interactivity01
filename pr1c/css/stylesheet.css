@@ -23,6 +23,10 @@ div {
 
 header {
     flex: 2 auto;
+    -webkit-box-flex: 2 auto;
+    -moz-box-flex: 2 auto;
+    -webkit-flex: 2 auto;
+    -ms-flex: 2 auto;
     display: -webkit-flex;
     display: flex;
     background-color: #9D7554;
