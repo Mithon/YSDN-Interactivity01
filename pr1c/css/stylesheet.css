@@ -1,6 +1,5 @@
 @import url(http://fonts.googleapis.com/css?family=Open+Sans:400,800,300);
 @import url(http://fonts.googleapis.com/css?family=Gentium+Book+Basic:400,400italic);
-
 body {
     padding: 0;
     margin: 0;
@@ -9,6 +8,9 @@ body {
 }
 
 main {
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
     display: -webkit-flex;
     display: flex;
     flex-wrap: wrap;
