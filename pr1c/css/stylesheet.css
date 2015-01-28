@@ -4,7 +4,7 @@
 body {
     padding: 0;
     margin: 0;
-    background-color: #955251;
+    background-color: #B3ABAC;
     font-family: "Gentium Book Basic", serif;
 }
 
@@ -27,6 +27,7 @@ header {
     text-align: center;
     background-image: url("../images/coffeebeans.jpg");
     background-size: 180%;
+    margin-bottom: 2px;
 }
 
 h1 {
@@ -42,7 +43,7 @@ h2 {
     font-family: "Open Sans", Helvetica, sans-serif;
     font-weight: bold;
     font-size: 2em;
-    color: #6f6a6b;
+    color: #969494;
 }
 
 h3 {
@@ -54,19 +55,28 @@ h3 {
 p {
     font-size: 1.15em;
     text-align: left;
-    line-height: 1.2
+    line-height: 1.25
 }
 
 section {
-    background-color: #F3EBE0;
+    background-color: rgb(255, 255, 255);
     display: flex;
     min-width: 400px;
     flex: 1;
-
+    margin-bottom: 2px;
 }
 
 section:nth-child(odd) {
     background-color: #955251;
+}
+
+section.alt-colour {
+    background-color: #955251;
+}
+
+.alt-colour p, .alt-colour h2{
+    color: #fdfdfd;
+    letter-spacing: 150%;
 }
 
 section.img {
@@ -75,22 +85,25 @@ section.img {
     min-height: 300px;
 }
 
-section.img {
-
-img {
-    min-height: 300px;
-    flex: 1;
-    min-width: 200px;
+.grinder {
+    background-image: url("../images/coffee-grinder.jpg");
 }
 
+.espresso {
+    background-image: url("../images/espresso.jpg");
+}
 
+.berman {
+    background-image: url("../images/berman_coffeemaker.jpg");
+}
+
+.tonx {
+    background-image: url("../images/tonx_coffee.jpg");
+}
 
 .info-box {
     flex: 1;
 }
-
-
-
 
 
 
