@@ -26,9 +26,9 @@ div {
 
 header {
     flex: 2 auto;
-    -webkit-box-flex: 2 auto;
+    -webkit-box-flex: 2 0 40%;
     -moz-box-flex: 2 auto;
-    -webkit-flex: 2 auto;
+    -webkit-flex: 2 0 40%;
     -ms-flex: 2 auto;
     display: -webkit-flex;
     display: flex;
@@ -75,9 +75,9 @@ section {
     display: -webkit-flex;
     min-width: 400px;
     flex: 1;
-    -webkit-box-flex: 1;
+    -webkit-box-flex: 1 0 40%;
     -moz-box-flex: 1;
-    -webkit-flex: 1;
+    -webkit-flex: 1 0 40%;
     -ms-flex: 1;
     margin-bottom: 2px;
 }
@@ -110,8 +110,9 @@ section.img {
     background-image: url("../images/espresso.jpg");
 }
 
-.berman {
+section.img.berman {
     background-image: url("../images/berman_coffeemaker.jpg");
+    background-size: 120%;
 }
 
 .tonx {
