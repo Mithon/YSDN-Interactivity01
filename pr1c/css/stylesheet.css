@@ -3,17 +3,20 @@
 body {
     padding: 0;
     margin: 0;
+    width: 100%;
     background-color: #B3ABAC;
     font-family: "Gentium Book Basic", serif;
 }
 
 main {
+    width: 100%;
     display: -webkit-box;
     display: -moz-box;
     display: -ms-flexbox;
     display: -webkit-flex;
     display: flex;
     flex-wrap: wrap;
+    -webkit-flex-wrap: wrap;
 }
 
 div {
@@ -72,6 +75,10 @@ section {
     display: -webkit-flex;
     min-width: 400px;
     flex: 1;
+    -webkit-box-flex: 1;
+    -moz-box-flex: 1;
+    -webkit-flex: 1;
+    -ms-flex: 1;
     margin-bottom: 2px;
 }
 
