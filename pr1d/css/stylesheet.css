@@ -18,6 +18,7 @@ header  {
     background-color: #64B5F6;
     height: 100%;
     padding: 5%;
+    z-index: 1;
 }
 
 header * {
@@ -86,6 +87,83 @@ footer p {
     font-weight: 400;
 }
 
+nav {
+    background-color: #E3F2FD;
+    margin: auto;
+    height: 50px;
+    padding-top: 10px;
+}
+
+nav div {
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    max-width: 800px;
+}
+
+nav a {
+    background-color: #90CAF9;
+    text-align: center;
+    flex: 1 auto;
+    height: 40px;
+    font-size: 1.2em;
+    line-height: 40px;
+    border-radius: 3px;
+    color: #fff;
+    font-weight: bold;
+    margin: auto 8px;
+    align-content: center;
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.10);
+
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+nav a:active {
+    box-shadow: none;
+}
+
+
+.toTop {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 50px;
+    height: 50px;
+    background-color: rgba(72, 72, 72, 0.8);
+    border-radius: 5px;
+    display: flex;
+}
+
+.toTop:hover {
+    background-color: rgba(132, 132, 132, 0.8);
+}
+
+.toTop div {
+    margin: auto;
+    width: 0;
+	height: 0;
+	border-left: 8px solid transparent;
+	border-right: 8px solid transparent;
+	border-bottom: 10px solid #f8f8f8;
+}
+
+.backArrow {
+    margin: auto;
+    width: 0;
+	height: 0;
+	border-bottom: 8px solid transparent;
+	border-top: 8px solid transparent;
+	border-right: 10px solid #f8f8f8;
+    float: left;
+    margin-left: 20px;
+    margin-top: 12px;
+}
+
 /* Image Formatting */
 
 img {
@@ -106,6 +184,48 @@ img {
     margin-left: -5%;
 }
 
+nav a {
+    background-position: center;
+    background-size: 100%;
+    background-blend-mode: multiply;
+}
+
+nav a:hover {
+    background-size: 105%;
+    background-position: center;
+    opacity: 0.4;
+    color: rgba(255, 255, 255, 1);
+
+    -webkit-transition: background 0.1s ease-in;
+    -moz-transition: background 0.1s ease-in;
+    -ms-transition: background 0.1s ease-in;
+    -o-transition: background 0.1s ease-in;
+    transition: background 0.1s ease-in;
+}
+
+.rawDenim:hover {
+    background-image: url(../images/rawDenimB.jpg);
+}
+
+.myJeans:hover {
+    background-image: url(../images/myJeansB.jpg);
+}
+
+.brands:hover {
+    background-image: url(../images/brandsB.jpg);
+}
+
+.mainLink {
+    order: 0;
+    background-color: #64B5F6;
+    background-image: none;
+}
+
+.mainLink:hover {
+    background-image: none;
+    background-color: #2196F3;
+    opacity: 1;
+}
 
 /* Mobile Image Handling */
 
