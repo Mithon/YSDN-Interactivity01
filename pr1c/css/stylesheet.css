@@ -29,7 +29,7 @@ div {
 }
 
 header {
-    flex: 2 auto;
+    flex: 2;
 
     -moz-box-flex: 2 auto;
 
