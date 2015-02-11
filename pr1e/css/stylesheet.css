@@ -3,7 +3,8 @@ I'll probably switch back to using sass next project
 
 I don't know if there is a proper way to organize css so I tried to just make it readable*/
 
-
+/* Switched to @imports instead */
+@import url(http://fonts.googleapis.com/css?family=Lato:300,400,700);
 
 
 /* Font stack and reset. Also background */
