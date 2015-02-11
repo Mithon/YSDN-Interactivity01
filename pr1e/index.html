@@ -5,10 +5,107 @@
     <meta charset="UTF-8">
     <title>Jeans</title>
     <meta name="viewport" content="width=device-width">
-    <link rel="stylesheet" href="css/stylesheet.css">
     <style>
-    @import url(http://fonts.googleapis.com/css?family=Lato:300,400,700);
+        body {
+    font-family: 'Lato', sans-serif;
+    background-color: #f8f8f8;
+    margin: -20px 0 0 0;
+}
+
+/* Spacing and Layout */
+
+article {
+    margin: auto;
+    max-width: 800px;
+    padding: 20px 7% 0 7%;
+    line-height: 1.6;
+}
+
+header  {
+    background-color: #64B5F6;
+    height: 100%;
+    padding: 5%;
+}
+
+header * {
+    max-width: 800px;
+    margin: auto;
+}
+
+section  {
+    margin-bottom: 80px;
+}
+
+footer {
+    padding-bottom: 50px;
+}
+
+/* Nav Formatting */
+
+nav {
+    background-color: #E3F2FD;
+    margin: auto;
+    height: 50px;
+    padding-top: 10px;
+}
+
+nav div {
+    display: flex;
+    display: -webkit-flex;
+    justify-content: space-between;
+    margin: auto;
+    max-width: 800px;
+}
+
+nav a {
+    background-color: #90CAF9;
+    text-align: center;
+    flex: 1;
+    -webkit-flex: 1 auto;
+
+    height: 40px;
+    font-size: 1.2em;
+    line-height: 40px;
+    border-radius: 3px;
+    color: #fff;
+    font-weight: bold;
+    margin: auto 8px;
+    align-content: center;
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.10);
+}
+
+nav a:active {
+    box-shadow: none;
+}
+
+nav a {
+    background-position: center;
+    background-size: 100%;
+}
+
+nav a:hover {
+    background-size: 105%;
+    background-position: center;
+    opacity: 0.4;
+    color: rgba(255, 255, 255, 1);
+
+    -webkit-transition: background 0.1s ease-in;
+    transition: background 0.1s ease-in;
+}
+
+.mainLink {
+    order: 0;
+    background-color: #64B5F6;
+    background-image: none;
+}
+
+.mainLink:hover {
+    background-image: none;
+    background-color: #2196F3;
+    opacity: 1;
+}
     </style>
+    <link rel="stylesheet" href="css/stylesheet.css">
 </head>
 
 <body>
